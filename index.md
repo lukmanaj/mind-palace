@@ -1,4 +1,7 @@
 ---
-title: Welcome to my blog
+title: Mind Palace Secrets
 ---
 
+---
+A space specifically for documenting and sharing my coding journey 
+---
