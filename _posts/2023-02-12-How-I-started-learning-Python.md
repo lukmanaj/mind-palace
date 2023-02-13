@@ -13,4 +13,4 @@ I remember briefly attempting the 'Data Analysis with Python certification' on F
 4. Data Visualization with Python
 5. Machine Learning with Python
 
-In the end, I didn't have a clear pathway to a future but I am happy that I am now in a fellowship with a community that can support me as I strive to achieve the programmin goal. Alhamdulillah. 
+In the end, I didn't have a clear pathway to a future but I am happy that I am now in a fellowship with a community that can support me as I strive to achieve the programming goal. Alhamdulillah. 
