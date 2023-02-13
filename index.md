@@ -1,7 +1,4 @@
 ---
-title: Secret Mind Palace
+title: Welcome to my blog
 ---
 
----
-# A space for discussing all things coding. Please join me as we discuss.
----
