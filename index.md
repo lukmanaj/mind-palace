@@ -3,7 +3,7 @@ title: Mind Palace Secrets
 ---
 
 ---
-A space specifically for documenting and sharing my coding journey 
+# A space specifically for documenting and sharing my coding journey 
 ---
 
 ![my code snippets](/resources/chaining.png)
