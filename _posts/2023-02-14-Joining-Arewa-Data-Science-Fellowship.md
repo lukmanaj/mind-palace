@@ -1,0 +1,11 @@
+# Arewa Data Science Fellowship
+
+The link for the application to the fellowship was sent to me by my friend Abbas. I reluctantly opened the link and I was surprised to see that I had to complete an introduction to Python course in Udacity to complete the application. They made uploading the certificate a required field. Trust me, I always do my due diligence. Upon completing the course, I found that I could not get a certificate without payment. I took a screenshot if my course dashboard showing that I have completed the course and uploaded that instead. A few days later, I received an email telling me that I had gotten in. This to me, is the beginning of my Python journey. Prior to Arewa, I had only learnt theoretically and had no IDE installed on my laptop. I also only used colab to practice on rare ocassions. After joining Arewa, I was forced to install VSCode and practice daily. Our mentor, Shamsuddeen always says that he wants us to imbibe atomic habits, based on the famous book by James Clear. Having an IDE on my laptop and a structured course with exercises to practice daily has improved my understanding and overall appreciation of the Python programming langauge.
+
+Our arewa data science fellowship officially started on the 23rd of January,2023 with a 30 Days of Python challenge, designed to improve our Python skills in preparation for Machine Learning and Deep Learning with Pytorch. The first phase of the programme also include the coursera course 'Learning How to Learn' which is to improve our learning efficiency as there are numerous concepts to learn in data science. Git and Github and blogging are also part of the first phase.
+
+The data science fellowship course is structured for self-paced learning with twice weekly office-hours on the weekends to understand concepts and discuss challenges encountered in the exercises given.
+
+I will discuss more on the fellowship as I  touch on the different subjects I encounter in my programming journey with arewa.
+
+> Practice makes improvement and possibe mastery. This is my take home from my first few weeks in this fellowship. Practice is what I have been missing in my learning journey. As such, it is a great pleasure to be part of the first cohort of this fellowship. In sha Allah, greatness awaits.
