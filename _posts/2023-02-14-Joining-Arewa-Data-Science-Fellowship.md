@@ -5,8 +5,8 @@ The link for the application to the fellowship was sent to me by my friend Abbas
 Our arewa data science fellowship officially started on the 23rd of January, 2023 with Phase one of four which is broken down into: 
 - 30 Days of Python challenge, designed to improve our Python skills in preparation for Machine Learning and Deep Learning with Pytorch. 
 - The coursera course 'Learning How to Learn' which is to improve our learning efficiency as there are numerous concepts to learn in data science. 
-- Git and Github and 
-- blogging, to document our learning curve, the reason I'm here.
+- Git and Github, and 
+- Blogging, to document our learning curve, the reason I'm here.
 
 The data science fellowship course is structured for self-paced learning with twice weekly office-hours with the mentors on the weekends to understand concepts and discuss challenges encountered in the exercises given.
 
