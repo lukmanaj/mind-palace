@@ -27,7 +27,14 @@ range is a built-in function that helps in creating sequence of integers. It acc
 List comprehension The list comprehension statement, arr = [x for x in range(1,6,2)], goes through each element in the sequence range(1,6,2), and includes it in a list. Since it has been established that range(1,6,2) is 1,3,5 then arr ia [1,3,5].
 
 Mutation: This is a concept that is hard for most Python beginners like me to grasp. 
-arr1 = arr does not make a copy of arr and put it in arr1, rather it gives an additional name, arr1 to the object named arr. This implies that the list [1,3,5] now has two names, arr and arr1. This is how assignment works in Python. So any change done to arr1 will reflect in arr and vice versa. Hence arr1.append(10) will add ten to the same list object referenced by both arr and arr1
+arr1 = arr does not make a copy of arr and put it in arr1, rather it gives an additional name, arr1 to the object named arr. This implies that the list [1,3,5] now has two names, arr and arr1. This is how assignment works in Python. So any change done to arr1 will reflect in arr and vice versa. Hence arr1.append(10) will add ten to the same list object referenced by both arr and arr1.
+
+Unpacking: The final ingredient is the unpacking operator- asterisk (*). *arr, is returned and this is what we need to define. Unpacking means separating the items of an iterable, in this case the elements of the list arr. The question is then, what happens to the separated elements? If only *arr is run, an error is raised as the separated elements need to go into something eg list, tuple etc. So *arr will not work but [*arr] will work as the elements will be unpacked into a list. The code surrounding the operator determines where the output will be unpacked into. In our case, *arr, is given and the syntax for a tuple is an item followed by a comma. Therefore a tuple will be returned. 
+
+In conclusion, the answer is C for all the reasons above. 
+
+> Everyday I learn something new in my Data Science journey with Arewa Data Science Fellowship. It is a pleasure to be a part of this. 
+
 
 
 
