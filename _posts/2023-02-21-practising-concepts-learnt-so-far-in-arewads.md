@@ -1,6 +1,5 @@
----
+
 **What is the output of this code and why?**
----
 ![What is the output of this code and why?](/resources/practice.png)
 
 
