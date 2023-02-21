@@ -2,8 +2,11 @@
 **What is the output of this code and why?**
 ---
 
+
+
 ![What is the output of this code and why?](/resources/practice.png)
 
+---
 
 I selected this question as it covers so many of concepts we have covered in our  Arewa Data Science 30 days of Python so far.
 
