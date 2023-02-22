@@ -4,7 +4,11 @@
 
 
 
-![What is the output of this code and why?](/resources/practice.png)
+
+![Question pic](/resources/practice.png)
+
+
+
 
 ---
 
