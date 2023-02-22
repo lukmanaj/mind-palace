@@ -5,7 +5,7 @@
 
 
 
-![](./resources/practice.png)
+![](/resources/practice.png)
 
 
 
@@ -15,7 +15,8 @@
 I selected this question as it covers so many of concepts we have covered in our  Arewa Data Science 30 days of Python so far.
 
 It can be summarised as follows:
-1. range(1,6,2) is the sequence 1,3,5
+1. ![practice](https://user-images.githubusercontent.com/110518958/220537039-b3b32d1e-3076-4143-bace-97d40d346b36.png)
+range(1,6,2) is the sequence 1,3,5
 
 2. arr is [1,3,5]
 
