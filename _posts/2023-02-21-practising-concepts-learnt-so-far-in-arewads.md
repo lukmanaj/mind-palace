@@ -5,7 +5,7 @@
 
 
 
-![Question pic](/resources/practice.png)
+![Question pic](./resources/practice.png)
 
 
 
