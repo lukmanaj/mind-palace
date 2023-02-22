@@ -5,7 +5,7 @@
 
 
 
-[](https://github.com/lukmanaj/mind-palace/blob/main/resources/practice.png)
+![](https://github.com/lukmanaj/mind-palace/blob/main/resources/practice.png)
 
 
 
