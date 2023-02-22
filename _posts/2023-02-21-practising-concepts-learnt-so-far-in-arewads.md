@@ -5,7 +5,7 @@
 
 
 
-![Question pic](./resources/practice.png)
+![Question pic](https://github.com/lukmanaj/mind-palace/blob/main/resources/practice.png)
 
 
 
