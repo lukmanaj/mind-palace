@@ -8,21 +8,40 @@ Both libraries can be installed using pip, or if one uses a conda environment - 
 For the purpose of this article, I used a colab Jupyter notebook, which is free from google and only requires a google account and an internet connection. There's no need to install anything else. 
 We first begin by importing the two required libraries
 
-![carbon](https://user-images.githubusercontent.com/110518958/222918210-eb2b9ba6-638b-4de1-ba92-e426d3fb7c45.png)
+```py
+import requests
+from bs4 import BeautifulSoup
+```
 
 Requests library enables us to get the content of the page as a html and BeautifulSoup allows us to parse the html. 
+
 We then create a beautifulSoup object that we can use to navigate the content of the page as follows:
-![carbon (1)](https://user-images.githubusercontent.com/110518958/222918278-c8a7c087-d366-4305-90ec-bcbbb8cead0c.png)
+```py
+url = 'https://dailytrust.com/last-saturday-polls-raised-issues-that-require-immediate-solutions-inec/'
+response = requests.get(url)
+soup = BeautifulSoup(response.content,'html.parser')
+soup.prettify()
+
+```
+
 
 The url of the page is first declared, then the response object is created using the get method of requests. Afterwards, the content attribute of the response object is passed to BeautifulSoup to create a soup object that we can use to navigate through the content of the web page. The prettify method is used to show the basic structure of the web page as this can help in pinpointing the exact content needed, in our case, the paragraphs. 
 
 To keep things simple for now, this is the approach I followed:
 
-![carbon (5)](https://user-images.githubusercontent.com/110518958/222918392-57ff8ba0-ea50-4765-84af-f068b7a8fe60.png)
+```py
+paragraphs =  soup.find_all('p')
+print(soup.title)
+for paragraph in paragraphs:
+  if not paragraph.find('a'):
+    print(paragraph.get_text())
+```
+
 
 First, the find_all() method is used to get all the p tags as a list and this is assigned to the paragraphs variable. Then for the main target of this article, I print the title attribute of the soup object and then loop through each item in the paragraphs variable and print, this gives the entire content of the article. I discovered that the hyperlinked titles of related articles where included and I removed them by excluding all p tags that contained a tags. 
 
 Below is the output, giving the complete text of the article:
+
 
 ![carbon (4)](https://user-images.githubusercontent.com/110518958/222918444-9859fdc9-8992-428e-b2ca-e75e2981b194.png)
 
