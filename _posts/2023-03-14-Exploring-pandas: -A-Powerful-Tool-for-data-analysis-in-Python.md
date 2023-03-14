@@ -151,7 +151,6 @@ Operations between DataFrames and series are also supported, just like broadcast
 ### Computing descriptive statistics
 pandas objects have built-in methods for computing descriptive statistics on DataFrames and series. For instance:
 -  Calling DataFrame’s sum method returns a Series containing column sums, passing axis="columns" or axis=1 sums across the columns instead:
-
 ```py
 df.sum()
 
@@ -162,6 +161,7 @@ df.sum(axis=1)
 df.mean()
 ```
 - Describe method produces multiple summary statistics all at once for all the columns
+
 ```py
 df.describe()
 ```
