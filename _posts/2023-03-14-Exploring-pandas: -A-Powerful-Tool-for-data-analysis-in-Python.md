@@ -151,20 +151,27 @@ Operations between DataFrames and series are also supported, just like broadcast
 ### Computing descriptive statistics
 pandas objects have built-in methods for computing descriptive statistics on DataFrames and series. For instance:
 -  Calling DataFrame’s sum method returns a Series containing column sums, passing axis="columns" or axis=1 sums across the columns instead:
+
+
 ```py
 df.sum()
 
 df.sum(axis=1)
 ```
+
 - Same can be done to get the column means or row means (axis = 1):
+
+
 ```py
 df.mean()
 ```
+
 - Describe method produces multiple summary statistics all at once for all the columns
 
 ```py
 df.describe()
 ```
+
 There are various other methods for obtaining specific summary statistics in a DataFrame. The aim here is just to provide a taste of the possibilities, as with my NumPy article.
 
 In conclusion, pandas is a powerful library with useful tools for data analysis and in this article, I attempted to provide a glimpse of what can be achieved with pandas. The pandas documentation is a useful resource alongside an individual's inquisitiveness and willingness to explore different datasets using pandas. In addition, I found Python for Data Analysis by Wes McKinney quite useful as it gave an intuition into data analysis with Python. 
