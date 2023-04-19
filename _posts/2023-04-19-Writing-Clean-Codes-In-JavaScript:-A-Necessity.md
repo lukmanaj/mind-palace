@@ -1,4 +1,3 @@
-# Writing Clean Codes In JavaScript: A Necessity
 
 I recently started seriously practicing JavaScript, hence this post. Another impact of being a fellow of the Arewa Data Science Academy.
 Writing clean and readable code is an essential skill for any JavaScript developer. In fact, for all developers, regardless of favoured language. Clean code is code that is easy to understand, modify, and maintain. It is also code that follows the best practices and standards of the language. In this essay, we will discuss some of the best practices and style guides for writing clean JavaScript code.
