@@ -8,7 +8,7 @@ In this article, I present, as a follow-up to my Python article, 15 different so
 
 Here are 15 cool FizzBuzz solutions in JavaScript:
 
-1. Using a for loop and if/else statements:
+- Using a for loop and if/else statements:
 
 ```js
 for (let i = 1; i <= 100; i++) {
@@ -23,7 +23,7 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 ```
-2. Using a for loop and a switch statement:
+- Using a for loop and a switch statement:
 
 ```js
 for (let i = 1; i <= 100; i++) {
@@ -42,7 +42,7 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 ```
-3. Using a while loop and a ternary operator:
+- Using a while loop and a ternary operator:
 
 ```js
 let i = 1;
@@ -56,7 +56,7 @@ while (i <= 100) {
   i++;
 }
 ```
-4. Using recursion:
+- Using recursion:
 
 ```js
 function fizzBuzzRecursive(num) {
@@ -74,7 +74,7 @@ function fizzBuzzRecursive(num) {
 fizzBuzzRecursive(100);
 ```
 
-5. Using Array.from() and map():
+- Using Array.from() and map():
 
 ```js
 Array.from({ length: 100 }, (_, i) => {
@@ -87,7 +87,7 @@ Array.from({ length: 100 }, (_, i) => {
   );
 }).forEach(console.log);
 ```
-6. Using a do-while loop and a conditional operator:
+- Using a do-while loop and a conditional operator:
 
 ```js
 let i = 0;
@@ -97,7 +97,7 @@ do {
 } while (i < 100);
 ```
 
-7. Using a for loop and an object to store the strings:
+- Using a for loop and an object to store the strings:
 
 ```js
 const strings = { 3: "Fizz", 5: "Buzz" };
@@ -112,7 +112,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-8. Using recursion and an array to store the strings:
+- Using recursion and an array to store the strings:
 
 ```js
 const fizzBuzzStrings = ["", "", "Fizz", "", "Buzz", "Fizz", "", "", "Fizz", "Buzz", "", "Fizz", "", "", "FizzBuzz"];
@@ -125,7 +125,7 @@ function fizzBuzzRecursive(num) {
 }
 fizzBuzzRecursive(100);
 ```
-9. Using a for loop and a template literal:
+- Using a for loop and a template literal:
 
 ```js
 for (let i = 1; i <= 100; i++) {
@@ -133,7 +133,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-10. Using a for loop and a function to generate the output:
+- Using a for loop and a function to generate the output:
 
 ```js
 function generateOutput(num) {
@@ -151,7 +151,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-11. Using a for loop and a nested ternary operator:
+- Using a for loop and a nested ternary operator:
 
 ```js
 for (let i = 1; i <= 100; i++) {
@@ -159,7 +159,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-12. Using a for loop and an array to store the numbers and strings:
+- Using a for loop and an array to store the numbers and strings:
 
 ```js
 const arr = Array.from({ length: 100 }, (_, i) => i + 1);
@@ -170,7 +170,7 @@ arr.forEach((num) => {
 });
 ```
 
-13. Using a for loop and a self-invoking function to generate the output:
+- Using a for loop and a self-invoking function to generate the output:
 
 ```js
 for (let i = 1; i <= 100; i++) {
@@ -187,7 +187,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-14. Using a for loop and two switch statements:
+- Using a for loop and two switch statements:
 
 ```js
 for (let i = 1; i <= 100; i++) {
@@ -212,7 +212,7 @@ for (let i = 1; i <= 100; i++) {
 }
 ```
 
-15. Using a for loop and a map() method to generate the output:
+- Using a for loop and a map() method to generate the output:
 
 ```js
 for (let i = 1; i <= 100; i++) {
